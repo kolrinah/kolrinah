@@ -1,0 +1,158 @@
+/* 
+    Document   : kolrinah
+    Created on : 06/01/2014, 06:24:03 PM
+    Author     : Hector Martinez
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@charset "utf-8";
+html, body{
+    background-color: #EFF5FB; 
+   /* background-image: url('../img/background.png');*/
+    text-shadow: 0 1px 0 rgba(255,255,255,0.25);
+    height: 100%;
+}
+
+body{
+    padding-top: 75px;
+}
+
+root { 
+    display: block;
+}
+
+.navbar-brand{
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0px;
+}
+
+.navbar-default .navbar-nav li a{
+    width: 130px;
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav li a span{
+    color: #2aabd2;        
+    padding-bottom: 10px;
+    border-bottom: solid transparent;
+    border-width: 4px;
+}
+
+.navbar-default .navbar-nav li:hover a span{
+    color: #ff6507;
+    border-bottom-color: darkorange;
+}
+
+.navbar-default .navbar-nav li.active a span{
+    color: #ff6507;
+    border-bottom-color: #ff6507;
+}
+
+.up-header {
+background-image: url(../img/Header.jpg);
+width: 100%;
+-webkit-animation: slide 200s linear infinite;
+-webkit-animation-name: slide;
+-webkit-animation-duration: 200s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-delay: initial;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: initial;
+-webkit-animation-fill-mode: initial;
+-webkit-animation-play-state: initial;
+}
+
+footer{
+    background-color: hsl(209, 16%, 30%);
+    height:45px;
+    z-index: 5;
+    text-align: center;
+    padding-top: 5px;    
+    font-family:"Trebuchet MS", Tahoma, sans, freesans, sans-serif;
+    text-shadow: none;
+    font-size: 12px;
+    color:  #ddd;
+    box-shadow:3px -3px 10px 5px #888;
+    -webkit-box-shadow:3px -3px 10px 5px #888;
+    -moz-box-shadow:3px -3px 10px 5px #888;
+    -o-box-shadow:3px -3px 10px 5px #888;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);    
+}
+
+#main {
+ min-height: 100%;
+ height: auto !important;
+ height: 100%;
+ margin: 0 auto -45px;
+ padding-bottom: 65px;
+ z-index: 1; 
+}
+
+.krText{    
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   text-align: justify;
+   color: #262626;
+}
+
+.krText div div{
+   min-height: 30px;
+}
+
+.krText h3{
+    font: 400 30px/30px 'Open Sans Condensed', Arial, sans-serif;
+    line-height: 50px;
+    text-transform: uppercase;
+    color:  #00cccc;
+    text-shadow: 1px 1px 1px  #666666;
+}
+
+.tecnologia{
+    min-height: 400px;
+    border:  #2d6ca2 inset 2px;
+    text-align: justify;
+    vertical-align: middle;       
+}
+
+.tecnologia img{
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+.tecnologia img:hover{
+    border:  #2d6ca2  outset 3px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;    
+}
+
+.tecnologia a:hover{
+    text-decoration: none;
+}
+
+.carousel, .tecnologia{
+    border-color: #ddd #ddd #ccc;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 2px rgba(255, 255, 255, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+    -box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 2px rgba(255, 255, 255, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 2px rgba(255, 255, 255, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 2px rgba(255, 255, 255, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+
+    /*border:  #FFFFFF inset 3px;
+    background-color:  #ddd;*/
+}
+
+.carousel-caption h3, .carousel-caption p{
+  color:  #000000;
+  text-shadow: 1px 1px 2px rgba(255,255,255,1);
+  background-color: #FFFFFF;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
